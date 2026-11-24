@@ -29,7 +29,7 @@ test.describe('CRUD Workflow API Tests', () => {
     // Product CRUD Workflow
     // ---------------------------------------------------------
 
-    test('Product CRUD Workflow @master @end-to-end @api', async ({ request }) => {
+    test('Product CRUD Workflow @master @e2e @api', async ({ request }) => {
         let productId = 0;
 
         await test.step('1) Create a product', async () => {
@@ -68,7 +68,7 @@ test.describe('CRUD Workflow API Tests', () => {
     // User CRUD Workflow
     // ---------------------------------------------------------
 
-    test('User CRUD Workflow @master @end-to-end @api', async ({ request }) => {
+    test('User CRUD Workflow @master @e2e @api', async ({ request }) => {
         let userId = 0;
 
         await test.step('1) Create a user', async () => {
@@ -106,7 +106,7 @@ test.describe('CRUD Workflow API Tests', () => {
     // Cart CRUD Workflow
     // ---------------------------------------------------------
 
-    test('Cart CRUD Workflow @master @end-to-end @api', async ({ request }) => {
+    test('Cart CRUD Workflow @master @e2e @api', async ({ request }) => {
         const createPayload = RandomDataUtil.generateCartPayload(USER_ID);
         let cartId = 0;
 
