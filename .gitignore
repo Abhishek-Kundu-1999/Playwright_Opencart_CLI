@@ -1,0 +1,25 @@
+
+# Dependencies
+node_modules/
+
+# Environments and Secrets
+.env
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Reports
+/reports/
+/allure-report/
+/allure-results/
+/custom-report/
+
+# Tool /IDE config (local caches, not project files)
+.claude/
+.playwright-cli/
+.playwright-mcp/
+
