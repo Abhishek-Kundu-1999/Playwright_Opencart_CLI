@@ -13,10 +13,10 @@ node_modules/
 /playwright/.auth/
 
 # Reports
-/reports/
+# /reports/
 /allure-report/
-/allure-results/
-/custom-report/
+# /allure-results/
+# /custom-report/
 
 # Tool /IDE config (local caches, not project files)
 .claude/
